@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Shopaa </title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <header class="container">
+            <h1> Shopaa - Website mua sắm hàng đầu Nam Định</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home"> Home </a></li>
+                    <li><a href="#product"> Product</a></li>
+                    <li><a href="#contact"> Contact us</a></li>
+                    <li><a href="#login" onclick="navigateToLogin()"> Đăng Nhập </a></li> <!-- Fixed onclick event -->
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <section id="home">
+                <h2>Welcome to Shopaa</h2>
+                <p>Tất cả mọi thứ bạn cần đều ở đây</p>
+            </section>
+            <section id="product">
+                <h2>Sản phẩm của chúng tôi</h2>
+                <p>Khám phá</p>
+            </section>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Chúng tôi luôn ở đây</p>>
+                <p> Facebook: Makinohara Mahiruu</p>>
+            </section>
+            <section id="login">
+                <h2>Login</h2>
+                <div id="login-container"></div> <!-- Placeholder for login component -->
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Shopaa. All rights reserved.</p>
+        </footer>
+        <script src="scripts/main.js"></script> <!-- Added script for rendering React component -->
+    </body>
+</html>
